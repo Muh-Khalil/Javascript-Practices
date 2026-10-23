@@ -1,0 +1,83 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(32, 39, 52);
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+#btns{
+    background-color: rgb(228, 151, 10);
+    color: white;
+    position: absolute;
+    left: 57.5%;
+    height: 39px;
+    width: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.search_box{
+    background-color: rgb(32, 39, 52);
+    color: white;
+    position: absolute;
+    left: 32%;
+    width: 25%;
+    height: 30px;
+    border-radius: border-box;
+}
+
+.Search_more{
+    background-color: rgb(228, 151, 10);
+    color: white;
+    border-radius: 10px;
+    height: 39px;
+    width: 100px;
+    position: relative;
+    margin-left: 42.5%;
+}
+
+.visible_mode{
+    visibility: hidden;
+}
+
+.img{
+    height: 200px;
+    width: 80%;
+    object-fit: cover;
+    border: 3px solid black;
+}
+
+
+.images{
+    height: 900px;
+    width: 80%; 
+    margin-left: 100px;
+    border-radius: 2px solid black;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 8px;
+    margin-top: 5%;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.add_images{
+    height: 900px;
+    width: 80%; 
+    margin-left: 100px;
+    border-radius: 2px solid black;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 8px;
+    margin-top: 5%;
+    padding: 30px;
+    padding-bottom: 0px;
+}

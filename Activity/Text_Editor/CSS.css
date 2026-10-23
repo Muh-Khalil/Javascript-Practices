@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    text-align: center;
+    color: chocolate;
+    height: 35px;
+    width: 150px;
+    border: 1.5px solid black;
+    margin-left: 43%;
+}
+
+input{
+    margin-left: 38%;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+p{
+    height: 70vh;
+    width: 70%;
+    margin-left: 15%;
+    border: 2px solid burlywood;
+}
+
+button{
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+}

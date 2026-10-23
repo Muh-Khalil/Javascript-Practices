@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(105, 58, 58);
+}
+
+#text{
+    height: 60px;
+    width: 330px;
+    position: relative;
+    left: 40%;
+    top: 150px;
+    border: 2px solid rgb(67, 64, 64);
+    border-radius: 8px;
+}
+
+.menu_text img{
+    position: relative;
+    left: 35%;
+    top: 150px
+}
+
+#icon{
+    
+    background-color: black;
+    transform: rotate(270deg);
+}
+
+ul li img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+ul{
+    position: absolute;
+    left: 40%;
+    top: 210px;
+    padding-left: 2px;  
+}
+
+ul li{
+    display: flex;
+    width: 335px;
+    background-color: rgba(255, 255, 255, 0.82);
+}  
+
+ul li p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+li:hover{
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    background-color: white;
+}
+
+.visibility_mode{
+    visibility: hidden;
+}
+
+.drop_icon2{
+    transform: rotate(270deg);
+}

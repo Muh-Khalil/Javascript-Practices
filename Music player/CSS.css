@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(45, 43, 43);
+}
+
+.music_container{
+    width: 25%;
+    background: rgb(184,84,214);
+    background: radial-gradient(circle, rgba(184,84,214,0.9668242296918768) 41%, rgba(252,70,107,1) 100%);
+    margin: 10px;
+    padding: 10px;
+
+    /* background: rgb(138,66,168);
+    background: linear-gradient(90deg, rgba(138,66,168,1) 8%, rgba(158,68,156,1) 53%, rgba(169,81,146,1) 74%, rgba(252,176,69,1) 100%); */
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music_container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    font-size: 2em;
+}
+
+.menu div{
+    height: 50px;
+    width: 50px;
+    color: #f53198;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.music_container h2{
+    margin-top: 2px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.music_container p{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.music_range{
+    margin: 15px;
+    -webkit-appearance: none;
+    height: 8px;
+    width: 70%;
+    position:relative;
+    left: 10%;
+    border: 2px solid rgb(146, 91, 28);
+    background-color: rgb(139, 27, 50);
+    border-radius: 10px;
+}
+.music_range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(181, 85, 16);
+    border: 8px solid white;
+    border-radius: 50%;
+}
+
+.footer_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.footer_menu i{
+    font-size: 2em;
+}
+.footer_menu div{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #f53198;
+}
+
+.footer_menu div:nth-child(2){
+ transform: scale(1.4);
+ background-color: #f53198;
+ color: white;
+padding: 5px;
+}
+
+audio{
+    display: none;
+    margin-top: 50px;
+}
